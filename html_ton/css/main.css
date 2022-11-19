@@ -1,0 +1,201 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url("../fonts/Roboto-Bold.woff2") format("woff2"), url("../fonts/Roboto-Bold.woff") format("woff"), url("../fonts/Roboto-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Roboto';
+  src: url("../fonts/Roboto-Regular.woff2") format("woff2"), url("../fonts/Roboto-Regular.woff") format("woff"), url("../fonts/Roboto-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+* {
+  outline: none;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  position: relative;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  margin: 0;
+  line-height: 1.4;
+  font-weight: 400;
+  min-width: 320px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  color: #000;
+  min-height: 100vh;
+  background-color: #E7ECEF; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+a {
+  text-decoration: none;
+  color: #f00; }
+  a:hover, a:focus {
+    text-decoration: none;
+    color: #000; }
+
+p {
+  margin-top: 0;
+  margin-bottom: 14px;
+  padding: 0; }
+
+button {
+  border: none;
+  padding: 0;
+  margin: 0; }
+
+.header {
+  width: 100%;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  background-color: #fff; }
+
+.logo_telegram {
+  margin-left: 16px; }
+
+.bl_redirect {
+  background-color: #32AFED;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 50px;
+  color: #fff; }
+
+.bl_redirect__text {
+  font-weight: normal;
+  font-size: 16px; }
+
+.main {
+  margin: 5vh auto 0;
+  width: 100%;
+  max-width: 580px;
+  text-align: center; }
+
+.bl_logo {
+  position: relative;
+  margin: 0 auto 43px;
+  width: 116px;
+  height: 116px;
+  border-radius: 50%;
+  background-color: #FFF;
+  -webkit-box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 27px;
+  color: rgba(67, 71, 77, 0.5);
+  overflow: hidden; }
+
+.bl_logo img {
+  width: 100%; }
+
+.text_title {
+  margin-top: 3vh;
+  margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: bold;
+  color: #43474D; }
+
+.text_description {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #6E757F; }
+
+.block_buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.block_buttons {
+  margin: 10vh auto 0;
+  padding: 0 5px; }
+
+.btn {
+  width: calc(50% - 4px);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  height: 45px;
+  margin-bottom: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+  -webkit-transition: ease-in .1s;
+  -o-transition: ease-in .1s;
+  transition: ease-in .1s; }
+
+.btn_openTelegram {
+  background-color: #32AFED; }
+  .btn_openTelegram:hover, .btn_openTelegram:focus {
+    background-color: #2771c9; }
+
+.btn_getApi {
+  background-color: #6E757F; }
+  .btn_getApi:hover, .btn_getApi:focus {
+    background-color: #585d68; }
+
+@media only screen and (max-width: 380px) {
+  .bl_logo {
+    width: 100px;
+    height: 100px; }
+  .text_title {
+    font-size: 20px;
+    line-height: 23px; }
+  .text_description {
+    font-size: 14px;
+    line-height: 16px; }
+  .block_buttons {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+  .btn {
+    width: 100%;
+    max-width: 320px;
+    margin: 8px auto; } }
+
+@media only screen and (max-width: 340px) {
+  .block_buttons {
+    margin: 5vh auto; } }
+
