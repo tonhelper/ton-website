@@ -80,4 +80,4 @@ Run the script to download and build everything you need (lite-client, func, fif
   <br>
 </ol>
 <br>
-<strong>If this information was useful to you, do not forget to thank me with a few coins. My wallet: makemoney.ton</strong>
+If this information was useful to you, do not forget to thank me with a few coins. <strong>My wallet: makemoney.ton</strong>
