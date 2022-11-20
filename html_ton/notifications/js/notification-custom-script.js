@@ -209,14 +209,14 @@ function pos4_error_noti() {
 	});
 }
 
-function pos5_success_noti() {
+function pos5_success_noti(message) {
 	Lobibox.notify('success', {
 		pauseDelayOnHover: false,
 		size: 'mini',
 		icon: 'bx bx-check-circle',
 		continueDelayOnInactiveTab: false,
 		position: 'bottom right',
-		msg: 'Successfully copied'
+		msg: message
 	});
 }
 /* Animated Notifications*/
