@@ -4,7 +4,7 @@ You can run a web server with your website and make it available on the TON Netw
 To access TON Site you will need connections through TON-proxy.<br>
 Follow the guide below and you will launch your first TON Site.<br>
 <strong>My TON wallet: makemoney.ton</strong>
-
+![Screenshot](screen.jpg)
 <ol>
   <li>Rent or boot up your server on an Ubuntu experience (preferably 22.04 and at least 4GB of RAM).</li>
   <li>Connect to the server via SSH.</li>
