@@ -3,7 +3,7 @@ This guide explains how to run a Website on The Open Network.<br>
 You can run a web server with your website and make it available on the TON Network. This is called TON Site.<br>
 To access TON Site you will need connections through TON-proxy.<br>
 Follow the guide below and you will launch your first TON Site.<br>
-If this is useful to you, thank me with a few coins. <strong>My wallet: makemoney.ton</strong>
+<strong>My TON wallet: makemoney.ton</strong>
 
 <ol>
   <li>Rent or boot up your server on an Ubuntu experience (preferably 22.04 and at least 4GB of RAM).</li>
