@@ -40,8 +40,15 @@ Run the script to download and build everything you need (lite-client, func, fif
     </ol>
   </li>
   <li>After executing the script in the terminal, you will get two long lines. They will be separated by a space.
-  
+    <ol>
+      <strong>For example: AD77FB007A10429920E4AE2BEAF2844E8A76074E25B46AAEBDD5AC57373B26B0  wwxp6yapiiefgja4sxcx2xsqrhiu5qhjys3i2voxxk2yvzxhmtlalt2</strong>
+    </ol>
+    The first one is <strong>Private Key</strong> and the second one is <strong>adnl</strong>. Write them down for yourself. The Private Key must be written when adding to the TON-site line if you want to link the domain to the site on dns.ton.org!
   </li>
-  <li></li>
-  <li></li>
+  <li>Now, in order to raise your proxy server, run the last script. After starting, you will be asked to enter your server ip address and adnl, which you received in the last step.
+      <ol>
+      <strong>./run_rldp_proxy.sh</strong>
+    </ol>
+  </li>
+  <li>Your proxy server is running and you can test its operation. To do this, you need to enable the proxy in your browser or operating system settings. Specify the <strong>IP of your server and port 8080</strong> as the host. If you did everything correctly, test it by going to the site <strong>http://makemoney.ton</strong></li>
 </ol>
