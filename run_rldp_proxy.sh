@@ -1,9 +1,9 @@
 #!/bin/bash
 
-echo "Введите сгенерированный adnl: "  
+echo "Enter adnl: "  
 read adnl_address
 
-echo "Введите ip вашего сервера: " 
+echo "Enter server IP: " 
 read ip_address_host
 
 cd /root/TON
